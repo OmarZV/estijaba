@@ -1,0 +1,115 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#estijaba-logo{
+    float: right;
+    
+}
+
+#footerrowempty{
+    background-color: #C8C9C7;
+    width: 100%;
+    position: relative;
+}
+
+#footerbackground{
+ background-color: #53565A;   
+}
+
+.footer {
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #53565A;
+    color: white;
+    text-align: center;
+}
+
+#footer{
+    
+    background-color: #53565A;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+
+#an-id{
+ color: white;   
+}
+
+#font{
+    font-family: europa;
+}
+
+#painter{
+    font-family: europa;
+    margin-top: -13%;
+}
+
+#actor{
+    font-family: europa;
+    margin-top: -24%;
+
+}
+
+#fencer3{
+    font-family: europa;
+    margin-top: -13%;
+}
+
+#diplomat3{
+    font-family: europa;
+    margin-top: -10%;
+}
+
+#boxerfont{
+    font-family: europa;
+    margin-top: 1.5%;
+}
+
+#nageh{
+    font-family: europa;
+    margin-top: 5%;
+}
+
+
+
+#fonttitle{
+    font-family: Arial;
+    color: #1c1c1c;
+    font-size: 24px;
+}
+
+
+#secondrow{
+    margin-top: 1%;
+}
+.nav-bar{
+    background-color: black;
+    
+}
+
+#toprow{
+    background-color: black;
+}
+
